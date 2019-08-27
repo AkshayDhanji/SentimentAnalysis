@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+div {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
+
+textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  float: left;
+  width: 100%;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+  float: right;
+  margin: 5px;
+}

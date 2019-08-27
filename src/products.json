@@ -1,0 +1,26 @@
+{
+    "ProductList": [
+        {
+            "ProductName": "Product 001",
+            "ImageName": "./Images/product001.jpeg",
+            "Price": "1.00",
+            "Currency": "INR",
+            "ReviewAttibutes": [
+                "Product 001",
+                "Image 001",
+                "India"
+            ]
+        },
+        {
+            "ProductName": "Product 002",
+            "ImageName": "./Images/product002.jpg",
+            "Price": "1.00",
+            "Currency": "INR",
+            "ReviewAttibutes": [
+                "Product 002",
+                "Image 002",
+                "India"
+            ]
+        }
+    ]
+}
