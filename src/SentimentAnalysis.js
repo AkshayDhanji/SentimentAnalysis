@@ -36,7 +36,7 @@ export default class SentimentAnalysis extends React.Component {
         return (
             <div>
                 <table>
-                    <tbody>
+                    {/* <tbody>
                         {
                             products.ProductList.map((itm, idx) => (
                                 <tr key={idx}>
@@ -64,6 +64,24 @@ export default class SentimentAnalysis extends React.Component {
                                 </tr>
                             ))
                         }
+                    </tbody> */}
+                    <tbody>
+                        <p>This is Sentiment Analysis Example</p>
+                        <textarea id="txtReview" className="review" cols="100" rows="3" value={this.state.review} onChange={this.ontextChange}></textarea>
+                        <br /><button id="btnSendReview" onClick={this.getSentiments}>Send Review</button>
+                        <table>
+                            <tbody>
+                                {
+                                    this.state.showReview.map((item, index) => (
+                                        <tr key={index}>
+                                            <td>
+                                                <label>{item}</label>
+                                            </td>
+                                        </tr>
+                                    ))
+                                }
+                            </tbody>
+                        </table>
                     </tbody>
                 </table>
             </div>
